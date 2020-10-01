@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4344EDA125262E9B004CC5CF /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4344EDA025262E9B004CC5CF /* SearchField.swift */; };
 		43E5D10F25262A0D000654BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E5D10E25262A0D000654BB /* AppDelegate.swift */; };
 		43E5D11125262A0D000654BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E5D11025262A0D000654BB /* SceneDelegate.swift */; };
 		43E5D11325262A0D000654BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E5D11225262A0D000654BB /* ContentView.swift */; };
 		43E5D11525262A0E000654BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E5D11425262A0E000654BB /* Assets.xcassets */; };
 		43E5D11825262A0E000654BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E5D11725262A0E000654BB /* Preview Assets.xcassets */; };
 		43E5D11B25262A0E000654BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E5D11925262A0E000654BB /* LaunchScreen.storyboard */; };
+		43E5D12425262A42000654BB /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E5D12325262A42000654BB /* NavView.swift */; };
+		43F790C425265BDD00EC1EFB /* ProfilePic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F790C325265BDD00EC1EFB /* ProfilePic.swift */; };
+		43F790C925265C5D00EC1EFB /* zac.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43F790C825265C5D00EC1EFB /* zac.jpg */; };
+		43F790CD25265E5B00EC1EFB /* lemur.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F790CC25265E5B00EC1EFB /* lemur.png */; };
+		43F790D125265FDD00EC1EFB /* coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F790D025265FDD00EC1EFB /* coin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4344EDA025262E9B004CC5CF /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
 		43E5D10B25262A0D000654BB /* RedditRemake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditRemake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E5D10E25262A0D000654BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43E5D11025262A0D000654BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		43E5D11725262A0E000654BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		43E5D11A25262A0E000654BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43E5D11C25262A0E000654BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43E5D12325262A42000654BB /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		43F790C325265BDD00EC1EFB /* ProfilePic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePic.swift; sourceTree = "<group>"; };
+		43F790C825265C5D00EC1EFB /* zac.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zac.jpg; sourceTree = "<group>"; };
+		43F790CC25265E5B00EC1EFB /* lemur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lemur.png; sourceTree = "<group>"; };
+		43F790D025265FDD00EC1EFB /* coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +68,14 @@
 		43E5D10D25262A0D000654BB /* RedditRemake */ = {
 			isa = PBXGroup;
 			children = (
+				43E5D12225262A32000654BB /* Nav */,
 				43E5D10E25262A0D000654BB /* AppDelegate.swift */,
 				43E5D11025262A0D000654BB /* SceneDelegate.swift */,
 				43E5D11225262A0D000654BB /* ContentView.swift */,
 				43E5D11425262A0E000654BB /* Assets.xcassets */,
+				43F790D025265FDD00EC1EFB /* coin.png */,
+				43F790C825265C5D00EC1EFB /* zac.jpg */,
+				43F790CC25265E5B00EC1EFB /* lemur.png */,
 				43E5D11925262A0E000654BB /* LaunchScreen.storyboard */,
 				43E5D11C25262A0E000654BB /* Info.plist */,
 				43E5D11625262A0E000654BB /* Preview Content */,
@@ -73,6 +89,16 @@
 				43E5D11725262A0E000654BB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43E5D12225262A32000654BB /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				43E5D12325262A42000654BB /* NavView.swift */,
+				4344EDA025262E9B004CC5CF /* SearchField.swift */,
+				43F790C325265BDD00EC1EFB /* ProfilePic.swift */,
+			);
+			path = Nav;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +160,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				43E5D11B25262A0E000654BB /* LaunchScreen.storyboard in Resources */,
+				43F790CD25265E5B00EC1EFB /* lemur.png in Resources */,
 				43E5D11825262A0E000654BB /* Preview Assets.xcassets in Resources */,
+				43F790D125265FDD00EC1EFB /* coin.png in Resources */,
 				43E5D11525262A0E000654BB /* Assets.xcassets in Resources */,
+				43F790C925265C5D00EC1EFB /* zac.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +175,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43E5D12425262A42000654BB /* NavView.swift in Sources */,
+				4344EDA125262E9B004CC5CF /* SearchField.swift in Sources */,
+				43F790C425265BDD00EC1EFB /* ProfilePic.swift in Sources */,
 				43E5D10F25262A0D000654BB /* AppDelegate.swift in Sources */,
 				43E5D11125262A0D000654BB /* SceneDelegate.swift in Sources */,
 				43E5D11325262A0D000654BB /* ContentView.swift in Sources */,
